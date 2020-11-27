@@ -1,0 +1,180 @@
+body {
+  padding: 10px;
+  font-family: sans-serif;
+}
+.task_form{
+  margin-top:1rem;
+}
+.filter {
+  display: flex;
+  justify-content: center;
+}
+
+.filter > button {
+  background-color: #62807e;
+}
+.login-form {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+
+  justify-content: center;
+  align-items: center;
+}
+
+.login-form > div {
+  margin: 8px;
+}
+
+.login-form > div > label {
+  font-weight: bold;
+}
+
+.login-form > div  > input {
+  flex-grow: 1;
+  box-sizing: border-box;
+  padding: 10px 6px;
+  background: transparent;
+  border: 1px solid #aaa;
+  width: 100%;
+  font-size: 1em;
+  margin-right: 16px;
+  margin-top: 4px;
+}
+
+.login-form > div > input:focus {
+  outline: 0;
+}
+
+.login-form > div > button {
+  background-color: #62807e;
+}
+.board-form > input{
+  flex-grow: 1;
+  box-sizing: border-box;
+  padding: 10px 6px;
+  background: transparent;
+  border: 1px solid #aaa;
+  width: 100%;
+  font-size: 1em;
+  margin-right: 16px;
+  margin-top: 4px;
+}
+/* .board-form  > button {
+  background-color: #62807e;
+} */
+.post-view-wrapper {
+  width: 60%;
+  margin:  auto;
+}
+
+.post-view-go-list-btn {
+  border: 0;
+  padding: 10px;
+  background-color: #ffd9d9;
+}
+
+.post-view-row {
+  margin: 30px 0;
+  display: flex;
+}
+
+.post-view-row > label:first-child {
+  margin: 10px 0;
+  width: 30%;
+  font-weight: bold;
+}
+
+.post-view-row > *:nth-child(2) {
+  margin: 10px 0;
+  width: 70%;
+}
+.register-form {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+
+  justify-content: center;
+  align-items: center;
+}
+
+.register-form > div {
+  margin: 8px;
+}
+
+.register-form > div > label {
+  font-weight: bold;
+}
+
+.register-form > div  > input {
+  flex-grow: 1;
+  box-sizing: border-box;
+  padding: 10px 6px;
+  background: transparent;
+  border: 1px solid #aaa;
+  width: 100%;
+  font-size: 1em;
+  margin-right: 16px;
+  margin-top: 4px;
+}
+
+.register-form > div > input:focus {
+  outline: 0;
+}
+
+.register-form > div > button {
+  background-color: #62807e;
+}
+
+.login-form > div > button {
+  background-color: #62807e;
+}
+.notice-form > input{
+  flex-grow: 1;
+  box-sizing: border-box;
+  padding: 10px 6px;
+  background: transparent;
+  border: 1px solid #aaa;
+  width: 100%;
+  font-size: 1em;
+  margin-right: 16px;
+  margin-top: 4px;
+}
+/* .board-form  > button {
+  background-color: #62807e;
+} */
+.post-view-wrapper {
+  width: 60%;
+  margin:  auto;
+}
+
+.post-view-go-list-btn {
+  border: 0;
+  padding: 10px;
+  background-color: #ffd9d9;
+}
+
+.post-view-row {
+  margin: 30px 0;
+  display: flex;
+}
+
+.post-view-row > label:first-child {
+  margin: 10px 0;
+  width: 30%;
+  font-weight: bold;
+}
+
+.post-view-row > *:nth-child(2) {
+  margin: 10px 0;
+  width: 70%;
+}
+.black-nav{
+  background: rgb(22, 20, 5); 
+width: 100%;
+display: flex;
+color: white;
+padding: 20px;
+font-weight: 600px;
+font-size:30px;
+}
